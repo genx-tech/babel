@@ -1,5 +1,5 @@
 {
-  "name": "@genx/babel-node",
+  "name": "@genx/babelnode",
   "version": "7.14.9",
   "description": "Babel command line",
   "author": "The Babel Team (https://babel.dev/team)",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/babel/babel.git",
+    "url": "https://github.com/genx-tech/babel.git#genx",
     "directory": "packages/babel-node"
   },
   "keywords": [
@@ -23,7 +23,7 @@
     "compiler"
   ],
   "dependencies": {
-    "@babel/register": "workspace:^7.14.5",
+    "@babel/register": "^7.15.3",
     "commander": "^4.0.1",
     "core-js": "^3.16.0",
     "node-environment-flags": "^1.0.5",
@@ -34,9 +34,9 @@
     "@babel/core": "^7.0.0-0"
   },
   "devDependencies": {
-    "@babel/core": "workspace:*",
-    "@babel/helper-fixtures": "workspace:*",
-    "@babel/runtime": "workspace:*",
+    "@babel/core": "^7.15.0",
+    "@babel/helper-fixtures": "^7.14.5",
+    "@babel/runtime": "^7.15.3",
     "fs-readdir-recursive": "^1.0.0",
     "make-dir": "^2.1.0",
     "rimraf": "^3.0.0"
