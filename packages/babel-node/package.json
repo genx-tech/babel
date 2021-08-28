@@ -1,5 +1,5 @@
 {
-  "name": "@babel/node",
+  "name": "@genx/babel-node",
   "version": "7.14.9",
   "description": "Babel command line",
   "author": "The Babel Team (https://babel.dev/team)",
